@@ -9,12 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.4",
+    "@reduxjs/toolkit": "^1.6.1",
+    "firebase": "^9.0.1",
+    "graphql": "^15.5.2",
+    "graphql-request": "^3.5.0",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-query": "^3.21.1",
+    "react-query-devtools": "^2.6.3",
+    "react-redux": "^7.2.4",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
+    "@types/node": "^16.7.10",
+    "@types/react": "^17.0.19",
+    "@types/react-redux": "^7.1.18",
+    "autoprefixer": "^10.3.4",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9",
+    "typescript": "^4.4.2"
+  },
+  "eslintConfig": {
+    "root": true
   }
 }
